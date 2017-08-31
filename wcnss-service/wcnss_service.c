@@ -736,7 +736,6 @@ void dynamic_nv_replace()
 
 	ALOGI("dynamic nv replace sucessfully!\n");
 }
-#endif
 
 #ifdef WCNSS_QMI_OSS
 static void *wcnss_qmi_handle = NULL;
@@ -790,6 +789,7 @@ dlsym_err:
 dlopen_err:
 	return FAILED;
 }
+#endif
 
 int main(int argc, char *argv[])
 {
